@@ -1,0 +1,267 @@
+@font-face {
+  font-family: 'Roboto';
+  src:  url('./Roboto-Regular.ttf') format('ttf');
+  font-weight: 400;
+  font-style: normal;
+}
+
+html, body {
+  margin: 0px;
+  padding: 0px;
+  height: 100vh;
+  background-color: #262222;
+  font-family: 'Roboto', sans-serif;
+}
+
+main {
+  height: 85vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* HEADER */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #262222;
+  color: white;
+  min-height: 10vh;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  margin-right: 15px;
+}
+
+.company-logo {
+  font-size: 1.5em;
+  text-transform: uppercase;
+  margin-left: 15px;
+}
+
+.company-logo:hover {
+  color: tomato;
+  cursor: pointer;
+}
+
+.tab {
+  text-decoration: none;
+  margin-right: 10px;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  color: white;
+}
+
+.tab:hover {
+  color: tomato;
+  cursor: pointer;
+}
+
+/* HOME */
+#home-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.2em;
+  color: #fff;
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("./pizza-background.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#home-container > * {
+  animation: fadein 1.5s;
+}
+
+.home-title {
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0px 5px 5px 5px;
+  font-weight: 400;
+}
+
+/* MENU */
+#menu-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("./brick-background.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#menu-container > * {
+  animation: fadein 1.5s;
+}
+
+.menu {
+  width: 60%;
+  height: 70vh;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: scroll;
+}
+
+hr {
+  width: 50%;
+  border-top: 1px solid tomato;
+}
+
+.title {
+  font-weight: 400;
+  font-size: 2.2em;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  grid-gap: 10px;
+}
+
+.grid-item {
+  padding: 10px;
+}
+
+.grid-item-title {
+  text-align: center;
+}
+
+.grid-item-description {
+  text-align: center;
+}
+
+.grid-item-price {
+  font-weight: 700;
+  text-align: center;
+}
+
+/* ABOUT */
+#about-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.2em;
+  color: #fff;
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("brick-pizza.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#about-container > * {
+  animation: fadein 1.5s;
+}
+
+.about-title {
+  text-transform: uppercase;
+  font-weight: 400;
+  margin-top: 0px;
+}
+
+.about-description {
+  text-align: center;
+  width: 50%;
+  line-height: 1.5;
+  margin: 5px;
+}
+
+/* CONTACT */
+#contact-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.2em;
+  color: #fff;
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("./pizza-in-oven.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #464646;
+}
+
+#contact-container > * {
+  animation: fadein 1.5s;
+}
+
+.social-icons {
+  margin-top: 10px;
+}
+
+.icon {
+  margin: 5px;
+  color: #fff;
+}
+
+.icon:hover {
+  color: tomato;
+}
+
+.contact-title {
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 400;
+  margin-top: 0px;
+}
+
+#contact-container > p {
+  margin: 5px;
+  text-align: center;
+}
+
+/* FOOTER */
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #262222;
+  color: #fff;
+  min-height: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.copyright {
+  margin: 0;
+  text-decoration: none;
+  color: #fff;
+}
+
+.copyright:hover {
+  cursor: pointer;
+  color: tomato;
+}
+
+
+
+@keyframes fadein {
+  from { opacity: 0.01; }
+  to   { opacity: 1; }
+}
