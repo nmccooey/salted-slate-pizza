@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Roboto';
-  src:  url('./Roboto-Regular.ttf') format('ttf');
+  src:  url('../fonts/Roboto-Regular.ttf') format('ttf');
   font-weight: 400;
   font-style: normal;
 }
@@ -70,7 +70,7 @@ ul {
   justify-content: center;
   font-size: 2.2em;
   color: #fff;
-  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("./pizza-background.jpg");
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../img/pizza-background.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -96,7 +96,7 @@ ul {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("./brick-background.jpg");
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../img/brick-background.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -163,7 +163,7 @@ hr {
   justify-content: center;
   font-size: 2.2em;
   color: #fff;
-  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("brick-pizza.jpg");
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../img/brick-pizza.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -197,7 +197,7 @@ hr {
   justify-content: center;
   font-size: 2.2em;
   color: #fff;
-  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("./pizza-in-oven.jpg");
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../img/pizza-in-oven.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;

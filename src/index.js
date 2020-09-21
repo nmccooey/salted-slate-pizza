@@ -1,9 +1,9 @@
-import './style.css';
-import initial from "./initial.js";
-import home from "./home.js";
-import menu from "./menu.js";
-import about from "./about.js";
-import contact from "./contact.js";
+import './assets/css/style.css';
+import initial from "./modules/initial";
+import home from "./modules/home";
+import menu from "./modules/menu";
+import about from "./modules/about";
+import contact from "./modules/contact";
 
 // Append fragment to DOM.
 document.body.appendChild(initial());
