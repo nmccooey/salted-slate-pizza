@@ -60,6 +60,15 @@ ul {
   cursor: pointer;
 }
 
+@media (max-width: 800px) {
+  .company-logo {
+    font-size: 1.3em;
+  }
+  .tab {
+    font-size: 1.0em;
+  }
+}
+
 /* HOME */
 #home-container {
   height: 100%;
@@ -75,6 +84,7 @@ ul {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+  text-align: center;
 }
 
 #home-container > * {
@@ -83,9 +93,14 @@ ul {
 
 .home-title {
   text-transform: uppercase;
-  text-align: center;
   margin: 0px 5px 5px 5px;
   font-weight: 400;
+}
+
+@media (max-width: 800px) {
+  #home-container {
+    font-size: 1.6em;
+  }
 }
 
 /* MENU */
@@ -153,6 +168,15 @@ hr {
   text-align: center;
 }
 
+@media (max-width: 800px) {
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-gap: 5px;
+  }
+}
+
 /* ABOUT */
 #about-container {
   height: 100%;
@@ -185,6 +209,12 @@ hr {
   width: 50%;
   line-height: 1.5;
   margin: 5px;
+}
+
+@media (max-width: 800px) {
+  #about-container {
+    font-size: 1.6em;
+  }
 }
 
 /* CONTACT */
@@ -234,6 +264,12 @@ hr {
   text-align: center;
 }
 
+@media (max-width: 800px) {
+  #contact-container {
+    font-size: 1.6em;
+  }
+}
+
 /* FOOTER */
 footer {
   position: fixed;
@@ -258,7 +294,6 @@ footer {
   cursor: pointer;
   color: tomato;
 }
-
 
 
 @keyframes fadein {

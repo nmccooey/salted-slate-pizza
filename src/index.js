@@ -1,4 +1,4 @@
-import './assets/css/style.css';
+import "./assets/css/style.css"
 import initial from "./modules/initial";
 import home from "./modules/home";
 import menu from "./modules/menu";
